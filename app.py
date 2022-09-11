@@ -11,7 +11,7 @@ from flask_limiter.util import get_remote_address
 from flask_login import login_required
 from werkzeug.exceptions import HTTPException
 
-from users import usermgr
+from simpleusers import usermgr
 import yaml,os,sys
 
 if not os.path.exists("config.yml"):

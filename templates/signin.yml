@@ -1,0 +1,6 @@
+- component: input_text
+  form_id: uid
+  help_text: Username
+- component: input_password
+  form_id: passwd
+  help_text: something useful
